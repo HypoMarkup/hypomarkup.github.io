@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <title>Terminal</title>
+    <meta name="description" content="Interactive terminal interface themed portfolio website">
+    <meta name="author" content="codingtater">
+    <meta name="keywords" content="terminal, web terminal, interactive, command line">
+    <script type="module" crossorigin src="/assets/index-D2Ut6P09.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CAASQmWn.css">
+  </head>
+  <body>
+    <div id="terminal">
+
+    </div>
+
+    <div id="input" onclick="document.getElementById('textarea').focus();">
+      <span id="user">guest@desktop</span>
+      <span id="path" class="pre-input"></span>
+      <span id="prompt-symbol" class="pre-input">$</span>
+      <div class="textarea-container">
+        <textarea type="text" id="textarea" class="textarea" autofocus="" maxlength="60"></textarea>
+        <div id="fake-caret"></div>
+      </div>
+    </div>
+
+  </body>
+</html>
